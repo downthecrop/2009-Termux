@@ -29,7 +29,7 @@ this is my favorite vncserver app btw https://play.google.com/store/apps/details
 setup the ip as 127.0.0.1:5901 no username with the password you setup. 
 
 
-#Notes:
+# Notes:
 
 to cleanup vnc sessions (close them all when you're done to save battery) `./clean.sh`
 

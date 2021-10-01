@@ -1,4 +1,7 @@
 # 2009-Termux
+
+[Walkthrough Video](https://www.youtube.com/watch?v=YyfRnlv9cJ8)
+
 Script for installing 2009Scape with PRoot in Termux arm64 (aarch64)
 
 First do this: https://github.com/MFDGaming/ubuntu-in-termux

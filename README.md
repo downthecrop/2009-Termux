@@ -13,7 +13,7 @@ From inside ubuntu-in-termux (./startubuntu.sh) run this:
 
 `apt-get -y update && apt-get -y install curl && curl -s https://raw.githubusercontent.com/downthecrop/2009-Termux/main/Install.sh | bash`
 
-this takes a lonnggg time. Then setup vnc `./run.sh && ./clean.sh`
+this takes a lonnggg time. Then setup vnc password cand close your sessions `./clean.sh`
 
 add the menu entry to fluxbox after vnc is setup `cp menu .fluxbox/menu`
 

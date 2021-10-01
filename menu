@@ -1,0 +1,4 @@
+[begin] (fluxbox)
+[exec] (2009Scape) {java -jar /root/client.jar}
+[include] (/etc/X11/fluxbox/fluxbox-menu)
+[end]

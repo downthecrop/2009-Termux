@@ -5,4 +5,4 @@ First do this: https://github.com/MFDGaming/ubuntu-in-termux
 
 From inside Ubuntu Proot (./startubuntu.sh) run this: 
 
-`curl -s https://raw.githubusercontent.com/downthecrop/2009-Termux/main/Install.sh | bash`
+`apt-get install curl && curl -s https://raw.githubusercontent.com/downthecrop/2009-Termux/main/Install.sh | bash`

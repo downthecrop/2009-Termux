@@ -7,5 +7,3 @@ rm -rf 2009-Termux/
 chmod +x run.sh
 chmod +x clean.sh
 ./run.sh
-./clean.sh
-mv menu /root/.fluxbox/menu

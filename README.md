@@ -24,14 +24,16 @@ add the menu entry to fluxbox after vnc is setup `cp menu .fluxbox/menu`
 
 to run the vncserver use `./run.sh`
 
-to cleanup vnc sessions (close them all when you're done to save battery) `./clean.sh`
-
 this is my favorite vncserver app btw https://play.google.com/store/apps/details?id=com.iiordanov.freebVNC&hl=en_CA&gl=US
 
 setup the ip as 127.0.0.1:5901 no username with the password you setup. 
 
 
 #Notes:
+
+to cleanup vnc sessions (close them all when you're done to save battery) `./clean.sh`
+
+to start it back up after closing termux you need to `cd ubuntu-in-termux` and run `./startubuntu.sh` then `./run.sh` .... I know it's a little much.
 
 The client is modified to remove a x86_64 compiled fixXinit binary. It also removes the discord integration jar. Other than that it's just the same ol' stuff.
 

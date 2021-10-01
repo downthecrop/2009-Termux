@@ -29,5 +29,7 @@ this is my favorite vncserver app btw https://play.google.com/store/apps/details
 setup the ip as 127.0.0.1:5901 no username with the password you setup. 
 
 
-Notes: The client is modified to remove a x86_64 compiled fixXinit binary. It also removes the discord integration jar. Other than that it's just the same ol' stuff.
+#Notes:
+
+The client is modified to remove a x86_64 compiled fixXinit binary. It also removes the discord integration jar. Other than that it's just the same ol' stuff.
 

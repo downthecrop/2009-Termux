@@ -33,7 +33,7 @@ setup the ip as 127.0.0.1:5901 no username with the password you setup.
 
 to cleanup vnc sessions (close them all when you're done to save battery) `./clean.sh`
 
-to start it back up after closing termux you need to `cd ubuntu-in-termux` and run `./startubuntu.sh` then `./run.sh` .... I know it's a little much.
+to start it back up after closing termux you need to `cd ubuntu-in-termux` and run `./startubuntu.sh` then `./run.sh` .... I know it's a little much. Use the tab button in termux to auto complete the names.
 
 The client is modified to remove a x86_64 compiled fixXinit binary. It also removes the discord integration jar. Other than that it's just the same ol' stuff.
 

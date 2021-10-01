@@ -1,4 +1,3 @@
-apt-get update
 apt-get --yes --force-yes install default-jre tightvncserver fluxbox git
 git clone https://github.com/downthecrop/2009-Termux
 cd 2009-Termux

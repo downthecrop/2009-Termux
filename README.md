@@ -30,7 +30,7 @@ this takes a lonnggg time. When prompted setup vnc password.
 `cp menu .fluxbox/menu &&
 cp startup .fluxbox/startup &&
 cp profile .profile &&
-./clean.sh &&
+./clean.sh &
 exit
 `
 

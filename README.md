@@ -27,9 +27,9 @@ this takes a lonnggg time. When prompted setup vnc password.
 
 # Step 3
 
-`cp menu .fluxbox/menu &
-cp startup .fluxbox/startup &
-cp profile .profile &
+`cp menu .fluxbox/menu &&
+cp startup .fluxbox/startup &&
+cp profile .profile &&
 ./clean.sh &
 exit
 `

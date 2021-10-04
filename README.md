@@ -45,7 +45,7 @@ setup the ip as 127.0.0.1:5901 no username with the password you setup.
 
 # Notes:
 
-to cleanup vnc sessions (close them all when you're done to save battery) `./clean.sh`
+to cleanup vnc sessions (close them all when you're done to save battery) `./clean.sh & exit`
 
 The client is modified to remove a x86_64 compiled fixXinit binary. It also removes the discord integration jar. Other than that it's just the same ol' stuff.
 

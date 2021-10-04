@@ -23,7 +23,7 @@ When that's all done you should see root@localhost paste in this:
 `apt-get -y update && apt-get -y install curl && curl -s https://raw.githubusercontent.com/downthecrop/2009-Termux/main/Install.sh | bash`
 
 
-this takes a lonnggg time. When prompted setup vnc password.
+this takes a lonnggg time. It will run in the background so you're free to use your phone and come back to it. When prompted setup vnc password.
 
 # Step 3
 

@@ -8,6 +8,7 @@ chmod +x run.sh
 chmod +x clean.sh
 ./run.sh
 cp menu .fluxbox/menu
-mv profile .profile
+cp startup .fluxbox/startup
+cp profile .profile
 ./clean.sh
 exit

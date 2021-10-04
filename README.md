@@ -6,23 +6,28 @@ https://termux.com/
 
 Script for installing 2009Scape with PRoot in Termux arm64 (aarch64)
 
+# Step 1
+
 First do this: https://github.com/MFDGaming/ubuntu-in-termux
 
-> or just run a oneline in termux
-> `apt-get update && apt-get upgrade -y && apt-get install wget proot git -y && cd ~ && git clone https://github.com/MFDGaming/ubuntu-in-termux.git && cd ubuntu-in-termux && chmod +x ubuntu.sh && ./ubuntu.sh -y`
-
-If you don't know much about unix you navigate with the `cd` or change directory command. You can move up one directory level with `cd ../`
+> `apt-get update && apt-get upgrade -y && apt-get install wget proot git -y && cd ~ && git clone https://github.com/MFDGaming/ubuntu-in-termux.git && wget https://raw.githubusercontent.com/downthecrop/2009-Termux/main/run-2009.sh && chmod +x run-2009.sh && cd ubuntu-in-termux && chmod +x ubuntu.sh && ./ubuntu.sh -y && ./startubuntu.sh`
 
 
-From inside ubuntu-in-termux (./startubuntu.sh) run this: 
+# Step 2
+
+When that's all done you should see root@localhost paste in this: 
+
+
+
 
 `apt-get -y update && apt-get -y install curl && curl -s https://raw.githubusercontent.com/downthecrop/2009-Termux/main/Install.sh | bash`
 
-this takes a lonnggg time. Then setup vnc password cand close your sessions `./clean.sh`
 
-add the menu entry to fluxbox after vnc is setup `cp menu .fluxbox/menu`
+this takes a lonnggg time. When prompted setup vnc password.
 
-to run the vncserver use `./run.sh`
+# Step 3
+
+You're all set up to play 2009Scape in Termux! Just run ./2009Scape.sh and it will start up a VNC session!
 
 this is my favorite vncserver app btw https://play.google.com/store/apps/details?id=com.iiordanov.freebVNC&hl=en_CA&gl=US
 

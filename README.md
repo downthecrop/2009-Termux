@@ -10,7 +10,7 @@ Script for installing 2009Scape with PRoot in Termux arm64 (aarch64)
 
 First do this: https://github.com/MFDGaming/ubuntu-in-termux
 
-> `apt-get update && apt-get upgrade -y && apt-get install wget proot git -y && cd ~ && git clone https://github.com/MFDGaming/ubuntu-in-termux.git && wget https://raw.githubusercontent.com/downthecrop/2009-Termux/main/2009Scape.sh && chmod +x 2009Scape.sh && cd ubuntu-in-termux && chmod +x ubuntu.sh && ./ubuntu.sh -y && ./startubuntu.sh`
+> `apt-get update && apt-get upgrade -y && apt-get install wget proot git -y && cd ~ && git clone https://github.com/MFDGaming/ubuntu-in-termux.git && wget https://raw.githubusercontent.com/downthecrop/2009-Termux/main/2009Scape.sh && chmod +x 2009Scape.sh && cp 2009Scape.sh ubuntu-in-termux/ && cd ubuntu-in-termux && chmod +x ubuntu.sh && ./ubuntu.sh -y && ./startubuntu.sh`
 
 
 # Step 2

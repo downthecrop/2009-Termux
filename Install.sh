@@ -7,8 +7,3 @@ rm -rf 2009-Termux/
 chmod +x run.sh
 chmod +x clean.sh
 ./run.sh
-cp menu .fluxbox/menu
-cp startup .fluxbox/startup
-cp profile .profile
-./clean.sh
-exit

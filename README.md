@@ -38,7 +38,7 @@ exit
 
 You're all set up to play 2009Scape in Termux! Just run `./2009Scape.sh` and it will start up a VNC session!
 
-this is my favorite vncserver app btw https://play.google.com/store/apps/details?id=com.iiordanov.freebVNC&hl=en_CA&gl=US
+this is my favorite vnc viewer app btw https://play.google.com/store/apps/details?id=com.iiordanov.freebVNC&hl=en_CA&gl=US
 
 setup the ip as 127.0.0.1:5901 no username with the password you setup. 
 

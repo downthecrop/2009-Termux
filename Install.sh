@@ -4,6 +4,6 @@ cd 2009-Termux
 mv * ../
 cd ../
 rm -rf 2009-Termux/
-chmod +x run.sh
+chmod +x 2009Scape.sh
 chmod +x clean.sh
-./run.sh
+./2009Scape.sh

@@ -6,6 +6,5 @@ if [ "$BASH" ]; then
   fi
 fi
 
-./clean.sh
-./run.sh
+./2009Scape.sh
 mesg n 2> /dev/null || true

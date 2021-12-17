@@ -1,3 +1,7 @@
+# Deprecated Dec 2021 for 2009Scape Mobile
+
+https://github.com/downthecrop/2009Scape-mobile
+
 # 2009-Termux
 
 [Walkthrough Video](https://www.youtube.com/watch?v=YyfRnlv9cJ8)
